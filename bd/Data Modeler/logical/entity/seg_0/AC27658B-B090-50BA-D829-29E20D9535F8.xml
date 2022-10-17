@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AC27658B-B090-50BA-D829-29E20D9535F8" name="Comanda">
+<createdBy>r_bru</createdBy>
+<createdTime>2022-05-17 18:46:14 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="EA953063-6D03-E2C8-E54D-A97AD606DD77" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_comanda" id="99F9CB4F-6721-0B75-A702-394B67AD0EDC">
+<createdBy>r_bru</createdBy>
+<createdTime>2022-05-17 18:49:28 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="EA953063-6D03-E2C8-E54D-A97AD606DD77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numarBilete" id="F2E9F46C-6136-042D-AF70-3901034B5E58">
+<createdBy>r_bru</createdBy>
+<createdTime>2022-05-17 18:49:48 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="EA953063-6D03-E2C8-E54D-A97AD606DD77" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="totalComanda" id="9EFA9646-F4EB-CE28-FD0F-784DC84907F4">
+<createdBy>r_bru</createdBy>
+<createdTime>2022-05-17 18:53:09 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="EA953063-6D03-E2C8-E54D-A97AD606DD77" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_muzeu" id="D387A231-550C-6B17-107B-0BEBB51F243C">
+<createdBy>r_bru</createdBy>
+<createdTime>2022-05-17 18:54:01 UTC</createdTime>
+<generatorID>A34D44A2-CB0A-389D-EA22-A20DE9217C78</generatorID>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="EA953063-6D03-E2C8-E54D-A97AD606DD77" value="true"/>
+</engineerTo>
+<referedAttribute>29737B4A-27C7-42BB-51AE-1EB0844A0F00</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cos" id="C38E2099-C336-297D-EDB9-04884BB13563">
+<createdBy>r_bru</createdBy>
+<createdTime>2022-05-17 18:54:32 UTC</createdTime>
+<generatorID>D825122E-9A74-0CB0-7FE6-C2A3B5F97133</generatorID>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="EA953063-6D03-E2C8-E54D-A97AD606DD77" value="true"/>
+</engineerTo>
+<referedAttribute>A2442A62-77C7-798A-DE96-62447714146B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B40EE53D-D331-A4E1-4BF3-D24B42CBEA13" name="Comanda PK">
+<createdBy>r_bru</createdBy>
+<createdTime>2022-05-17 18:49:46 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="EA953063-6D03-E2C8-E54D-A97AD606DD77" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>99F9CB4F-6721-0B75-A702-394B67AD0EDC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

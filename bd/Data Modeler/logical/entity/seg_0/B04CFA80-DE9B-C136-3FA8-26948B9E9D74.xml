@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B04CFA80-DE9B-C136-3FA8-26948B9E9D74" name="Client">
+<createdBy>r_bru</createdBy>
+<createdTime>2022-05-17 18:45:42 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="EA953063-6D03-E2C8-E54D-A97AD606DD77" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_user" id="CFB50AC4-497B-7B37-4C5C-B35B4FE862E0">
+<createdBy>r_bru</createdBy>
+<createdTime>2022-05-17 18:47:30 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="EA953063-6D03-E2C8-E54D-A97AD606DD77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nume" id="3CF9BD5F-D96E-ABFC-5541-707F847F716A">
+<createdBy>r_bru</createdBy>
+<createdTime>2022-05-17 18:47:49 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="EA953063-6D03-E2C8-E54D-A97AD606DD77" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="F0FD345A-B387-373E-04AC-A7F80B7F6C0E">
+<createdBy>r_bru</createdBy>
+<createdTime>2022-05-17 18:48:09 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="EA953063-6D03-E2C8-E54D-A97AD606DD77" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="parola" id="AC26C82F-99C5-0BC6-127A-A2BAFC7C8A26">
+<createdBy>r_bru</createdBy>
+<createdTime>2022-05-17 18:48:23 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="EA953063-6D03-E2C8-E54D-A97AD606DD77" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="110CB885-7ACB-83C3-07FD-9D307AFD3E0A" name="Client PK">
+<createdBy>r_bru</createdBy>
+<createdTime>2022-05-17 18:47:46 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="EA953063-6D03-E2C8-E54D-A97AD606DD77" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CFB50AC4-497B-7B37-4C5C-B35B4FE862E0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

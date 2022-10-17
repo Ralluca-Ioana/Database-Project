@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="088464AD-7886-1ABA-D4AF-547A06D92622" name="Cos">
+<createdBy>r_bru</createdBy>
+<createdTime>2022-05-17 18:46:59 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="EA953063-6D03-E2C8-E54D-A97AD606DD77" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cos" id="A2442A62-77C7-798A-DE96-62447714146B">
+<createdBy>r_bru</createdBy>
+<createdTime>2022-05-17 18:48:50 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="EA953063-6D03-E2C8-E54D-A97AD606DD77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_user" id="7F49874C-F998-6119-504D-40E0F3745AFF">
+<createdBy>r_bru</createdBy>
+<createdTime>2022-05-17 18:54:24 UTC</createdTime>
+<generatorID>C6967999-072C-9796-8C5B-DB1B21C9AF40</generatorID>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="EA953063-6D03-E2C8-E54D-A97AD606DD77" value="true"/>
+</engineerTo>
+<referedAttribute>CFB50AC4-497B-7B37-4C5C-B35B4FE862E0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E456AE61-24A3-1F84-B1EC-B37BFBA4FD7D" name="Cos PK">
+<createdBy>r_bru</createdBy>
+<createdTime>2022-05-17 18:49:08 UTC</createdTime>
+<ownerDesignName>Data Modeler</ownerDesignName>
+<engineerTo>
+<item key="EA953063-6D03-E2C8-E54D-A97AD606DD77" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A2442A62-77C7-798A-DE96-62447714146B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
